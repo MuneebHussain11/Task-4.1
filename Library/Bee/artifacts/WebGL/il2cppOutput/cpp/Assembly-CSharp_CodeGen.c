@@ -1,0 +1,116 @@
+﻿#include "pch-c.h"
+#ifndef _MSC_VER
+# include <alloca.h>
+#else
+# include <malloc.h>
+#endif
+
+
+#include "codegen/il2cpp-codegen-metadata.h"
+
+
+
+
+
+extern void Enemy_Start_m8BBD9A5AE10A27ABDFCD9168B93CD9C69D229034 (void);
+extern void Enemy_Update_m4149CFC3AC081AF0D654D9BDB6BC9B5540CE03D8 (void);
+extern void Enemy__ctor_mB6697627910F785A971C20C671DEFBA9D921D933 (void);
+extern void FocalPoint_Start_m806B0159D3410B62F4DE994AA57256665DC50C32 (void);
+extern void FocalPoint_Update_m83BC00192DA8C9FD3246CDC67D94C97ACC72E0F2 (void);
+extern void FocalPoint__ctor_m1DA724F217EF2D20889F8900927FDEBBF1E1EBA1 (void);
+extern void PlayerController_Start_m1D83076E8B136A71051F2F02545EE04947D3A8CF (void);
+extern void PlayerController_Update_m1F4051EB5BCBCCE5EEE2E3E49B7E278C3B14EC33 (void);
+extern void PlayerController_OnTriggerEnter_mF2704872AEA62333341DCBEA2831320C385701D1 (void);
+extern void PlayerController_PowerUpCountDown_mFB398A6284A622AAF4069DFF4257A92EBB16060E (void);
+extern void PlayerController_OnCollisionEnter_m2FC01282FAEE546C4408E6B901DBB3EB5A5BF989 (void);
+extern void PlayerController__ctor_mDDAB7C7D82E1A5B3E6C197B1AB9D653DFE554F33 (void);
+extern void U3CPowerUpCountDownU3Ed__13__ctor_m729301E7FE8FA4CE63195E95705E3FE44181DDEF (void);
+extern void U3CPowerUpCountDownU3Ed__13_System_IDisposable_Dispose_mC4DF8E49B458D5D944EFA967E593E507657A7316 (void);
+extern void U3CPowerUpCountDownU3Ed__13_MoveNext_m73D81B592BCE6FE511BF83751F65AC02E8E96B55 (void);
+extern void U3CPowerUpCountDownU3Ed__13_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mEE60C1C516D31EF67CE27AC1A83551C1872F405E (void);
+extern void U3CPowerUpCountDownU3Ed__13_System_Collections_IEnumerator_Reset_mA9C3E2B3B84BD17B01E46EFD2CB9C144D29289A0 (void);
+extern void U3CPowerUpCountDownU3Ed__13_System_Collections_IEnumerator_get_Current_m59876D2C940321AFB41D8D67D91F13D1F310B417 (void);
+extern void SpawnManager_Start_m65C9EA67649948222CFF4FBBF77BE2319D813DAF (void);
+extern void SpawnManager_Update_mD714BA3EADCC182FB7A93B9DE347D727E3A1BC53 (void);
+extern void SpawnManager_SpawnEnemyWave_m4322944133A2080541EDD9737A3FA4E7DA694E49 (void);
+extern void SpawnManager_GenerateSpawnPos_m2C3AF7C670BBE22D7C82185225176EF11AD5933B (void);
+extern void SpawnManager__ctor_m8DD503A0FFE79FA38CF0B7F013E54D24A04D166A (void);
+extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033 (void);
+extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1 (void);
+static Il2CppMethodPointer s_methodPointers[25] = 
+{
+	Enemy_Start_m8BBD9A5AE10A27ABDFCD9168B93CD9C69D229034,
+	Enemy_Update_m4149CFC3AC081AF0D654D9BDB6BC9B5540CE03D8,
+	Enemy__ctor_mB6697627910F785A971C20C671DEFBA9D921D933,
+	FocalPoint_Start_m806B0159D3410B62F4DE994AA57256665DC50C32,
+	FocalPoint_Update_m83BC00192DA8C9FD3246CDC67D94C97ACC72E0F2,
+	FocalPoint__ctor_m1DA724F217EF2D20889F8900927FDEBBF1E1EBA1,
+	PlayerController_Start_m1D83076E8B136A71051F2F02545EE04947D3A8CF,
+	PlayerController_Update_m1F4051EB5BCBCCE5EEE2E3E49B7E278C3B14EC33,
+	PlayerController_OnTriggerEnter_mF2704872AEA62333341DCBEA2831320C385701D1,
+	PlayerController_PowerUpCountDown_mFB398A6284A622AAF4069DFF4257A92EBB16060E,
+	PlayerController_OnCollisionEnter_m2FC01282FAEE546C4408E6B901DBB3EB5A5BF989,
+	PlayerController__ctor_mDDAB7C7D82E1A5B3E6C197B1AB9D653DFE554F33,
+	U3CPowerUpCountDownU3Ed__13__ctor_m729301E7FE8FA4CE63195E95705E3FE44181DDEF,
+	U3CPowerUpCountDownU3Ed__13_System_IDisposable_Dispose_mC4DF8E49B458D5D944EFA967E593E507657A7316,
+	U3CPowerUpCountDownU3Ed__13_MoveNext_m73D81B592BCE6FE511BF83751F65AC02E8E96B55,
+	U3CPowerUpCountDownU3Ed__13_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mEE60C1C516D31EF67CE27AC1A83551C1872F405E,
+	U3CPowerUpCountDownU3Ed__13_System_Collections_IEnumerator_Reset_mA9C3E2B3B84BD17B01E46EFD2CB9C144D29289A0,
+	U3CPowerUpCountDownU3Ed__13_System_Collections_IEnumerator_get_Current_m59876D2C940321AFB41D8D67D91F13D1F310B417,
+	SpawnManager_Start_m65C9EA67649948222CFF4FBBF77BE2319D813DAF,
+	SpawnManager_Update_mD714BA3EADCC182FB7A93B9DE347D727E3A1BC53,
+	SpawnManager_SpawnEnemyWave_m4322944133A2080541EDD9737A3FA4E7DA694E49,
+	SpawnManager_GenerateSpawnPos_m2C3AF7C670BBE22D7C82185225176EF11AD5933B,
+	SpawnManager__ctor_m8DD503A0FFE79FA38CF0B7F013E54D24A04D166A,
+	UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033,
+	UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1,
+};
+static const int32_t s_InvokerIndices[25] = 
+{
+	1119,
+	1119,
+	1119,
+	1119,
+	1119,
+	1119,
+	1119,
+	1119,
+	946,
+	1091,
+	946,
+	1119,
+	937,
+	1119,
+	1065,
+	1091,
+	1119,
+	1091,
+	1119,
+	1119,
+	937,
+	1117,
+	1119,
+	2158,
+	1119,
+};
+IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
+const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
+{
+	"Assembly-CSharp.dll",
+	25,
+	s_methodPointers,
+	0,
+	NULL,
+	s_InvokerIndices,
+	0,
+	NULL,
+	0,
+	NULL,
+	0,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+};
